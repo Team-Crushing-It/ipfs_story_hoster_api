@@ -1,0 +1,54 @@
+body {
+width: 100vw;
+height: 100vh;
+margin: 0;
+}
+
+video {
+grid-column: 1;
+grid-row: 1;
+max-width: 800px;
+max-height: 500px;
+}
+
+.wrapper {
+display: grid;
+position: relative;
+margin: auto;
+max-width: max-content;
+max-height:  max-content;
+top: 50%;
+transform: translateY(-50%);
+}
+
+.relive {
+grid-column: 1;
+grid-row: 1;
+position: relative;
+display: inline;
+background-color: white;
+z-index: 1;
+width: max-content;
+height: max-content;
+display: flex;
+flex-direction: column;
+margin-top: 10px;
+margin-left: 10px;
+padding: 5px;
+border-radius: 15%;
+}
+
+.relive-logo {
+
+width: 50px;
+}
+
+.made-with {
+font-size: 10px;
+margin: 0;
+display: inline;
+}
+
+.relive:hover{
+background-color: rgba(255, 255, 255, 0.466);
+}
